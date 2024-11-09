@@ -29,12 +29,12 @@ sudo apt install tesseract-ocr wl-clipboard
    chmod +x ~/ocr.sh
    ```
 
-#### 3. Assign the `Super+Shift+T` Keyboard Shortcut
+#### 3. Assign the Keyboard Shortcut `Super+Shift+T` as an example.
 
 To quickly run the script with the **`Super+Shift+T`** shortcut:
 
 1. **Open Settings** in Cosmic Desktop.
-2. Go to **Keyboard** settings.
+2. Go to **Input Devices -> Keyboard** settings.
 3. Scroll down and select **Add Custom Shortcut**.
 4. Name the shortcut, e.g., **"OCR Screenshot"**.
 5. In the **Command** field, enter the full path to the script:
@@ -43,7 +43,7 @@ To quickly run the script with the **`Super+Shift+T`** shortcut:
    /home/your_user_name/ocr.sh
    ```
 
-6. Click **Set Shortcut** and press **Super + Shift + T** as your key combination.
+6. Click **Add Shortcut** and type(do not press) **Super + Shift + T**  as your key combination.
 
 ### Usage
 
@@ -52,6 +52,9 @@ Press **Super + Shift + T** to:
 1. Take a screenshot.
 2. Extract text from the screenshot.
 3. Copy the text to your clipboard.
+
+### Further Update
+Various parameters can be added to tesseract to improve OCR
 
 After running, the script will automatically remove the latest screenshot image from the **Pictures** directory. 
 
