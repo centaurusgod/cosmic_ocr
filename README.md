@@ -43,7 +43,7 @@ To quickly run the script with the **`Super+Shift+T`** shortcut:
    /home/your_user_name/ocr.sh
    ```
 
-6. Click **Add Shortcut** and type(do not press) **Super + Shift + T**  as your key combination.
+6. Click **Add Shortcut** and type(do not press) **Super + Shift + T**  as your key combination and click **Add keybinding** .
 
 ### Usage
 
